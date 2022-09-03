@@ -111,7 +111,7 @@ a {
 .header a {
     float: left;
     /* margin: 4px auto; */
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -130,7 +130,7 @@ a {
 /* Change the background color on mouse-over */
 .header a:hover {
     background-color: rgb(20, 213, 203);
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 /* Style the active/current link*/
@@ -157,8 +157,8 @@ a {
 }
 
 .container img {
-    margin-top: 30px;
-    width: 100%;
+    margin-top: 85px;
+    width: 85%;
     height: auto;
 }
 
@@ -184,7 +184,7 @@ a {
     color: white;
 }
   p{
-    font-size: 18px;
+    font-size: 20px;
 }
 .about-section {
     /* border: 10px solid rgba(255, 153, 0, 0.975); */
@@ -245,12 +245,13 @@ a {
     color: white;
     padding: 20px 10px 20px 5px;
     width: 100%;
+    height: 2px;
     /* box-shadow: inset 8px 8px 8px #ece363,inset -8px -8px -8px #beb0b0; */
 
 }
 
 .form-fields textarea {
-    /* height: 150px; */
+    height: 70px;
     resize: none;
 
 
@@ -365,6 +366,7 @@ font-size: 23px;
         width: 100%;
         height: inherit;
         float: none;
+        
 
     }
    }
